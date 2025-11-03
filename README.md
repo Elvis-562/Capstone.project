@@ -149,12 +149,16 @@ For the deep learning approach, the **Roberta model** (short for Robustly Optimi
 **Key Observations:**
 * After running the model for 3 epochs we have a final accuracy of 88.59%, this  makes it the best model compared to the    traditional models we trained earlier
 * The Training loss reduces with each epoch meaning the model was learning well and generalizing properly which is further emphasized by the minimal gaps between each training loss
-* The validation loss goes a bit up (0.35 → 0.41). This shows the model might be starting to overfit a little — it learns training data better than new data.
+* There's minimal increase in the  validation loss from  (0.35 → 0.41). This suggests minimal overfitting in our deep learning model as  it learns training data better than new data.
 
 * Overall, the model performance is strong and stable, nearly 88–89% accuracy
 
+## 6.Webscrapping
 
-## 6. Deployment
+In this section we fetched tweets from twitter to check the efficiency of the best traditional model. 
+
+
+## 7. Deployment
 The trained model was deployed to Streamlit Cloud to make it interactive and easy to use.
 Key Steps:
 1. Prepared a requirements.txt file listing all required Python packages.
@@ -185,11 +189,11 @@ https://globalmentalhealthapp-niqkscywvz7gh3ryy65hyy.streamlit.app/
 
 - **Joblib and Pickle**: To save the trained model.
   
-- **Imbalanced-learn (Imblearn)**: To handle class imbalance using techniques like SMOTE
-
 - **Transformers (Hugging Face)**: For implementing the Roberta deep learning model
 
-- **PyTorch**: Deep learning framework used to train transformer-based models 
+- **PyTorch**: Deep learning framework used to train transformer-based models
+
+- **Wordcloud**: This was used to get the most recurring words in the different mental health conditions.
 
 
 ## 8. Conclusion
