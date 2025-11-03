@@ -77,7 +77,7 @@ The success of this project will be assessed in the following ways:
 3. The final system should maintain interpretability, cultural sensitivity and ethical integrity when applied to both English and Swahili datasets.
 
 ## 2. Data Understanding
-This section uses the English  mental health text dataset to build a condition classification model.The model also used The dataset contains user statements translated from English to Swahili, serving as the foundation for downstream Natural Language Processing (NLP) modeling in an African context.
+This section makes use of the English mental health text dataset to build a mental health condition classification model. We also translated the dataset into swahili to show the disparity between English and Swahili text. The project also aimed to use statements in swahili language, serving as the foundation for downstream Natural Language Processing (NLP) modeling in an African context.
 
 The aim is to understand the dataset’s structure and content. This includes reviewing the available features, verifying data types and identifying potential quality issues such as missing values, duplicates or inconsistencies.
 
