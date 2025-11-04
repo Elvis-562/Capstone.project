@@ -162,14 +162,14 @@ In this section we fetched tweets from twitter to check the efficiency of the be
 The trained model was deployed to Streamlit Cloud to make it interactive and easy to use.
 Key Steps:
 1. Prepared a requirements.txt file listing all required Python packages.
-2. 
+2. Create an app.py that contains all the functionalites
 3. 
 
 App Link:
 https://globalmentalhealthapp-niqkscywvz7gh3ryy65hyy.streamlit.app/
 
 
-## 7. Technologies Used
+## 8. Technologies Used
 
 - **Python**: Primary programming language
 
