@@ -162,8 +162,10 @@ In this section we fetched tweets from twitter to check the efficiency of the be
 The trained model was deployed to Streamlit Cloud to make it interactive and easy to use.
 Key Steps:
 1. Prepared a requirements.txt file listing all required Python packages.
-2. Create an app.py that contains all the functionalites
-3. 
+2. Create an app.py that contains all the functionalites which include loading the saved model and e.t.c
+3. Upload the heavy models to hugging face repository, due to challenges of uploading on Github.
+4. Push the code to Github.
+5. Deploy the app on streamlit.
 
 App Link:
 https://globalmentalhealthapp-niqkscywvz7gh3ryy65hyy.streamlit.app/
@@ -196,7 +198,7 @@ https://globalmentalhealthapp-niqkscywvz7gh3ryy65hyy.streamlit.app/
 - **Wordcloud**: This was used to get the most recurring words in the different mental health conditions.
 
 
-## 8. Conclusion
+## 9. Conclusion
 
 This project explored how Natural Language Processing (NLP) and machine learning can detect mental health conditions from text, including a Swahili-translated dataset to make the model more inclusive. Traditional models like Logistic Regression and LinearSVC performed well, but the deep learning approach using the Roberta model (Robustly Optimized BERT Pretraining Approach) achieved the best results. Roberta, a transformer-based model that improves on BERT, was trained through steps such as data cleaning, tokenization, model loading, training, and evaluation. After 3 epochs, it reached an accuracy of 88.59%, showing strong learning ability with steadily decreasing training loss and only a small increase in validation loss (0.35 to 0.41), suggesting slight overfitting. Overall, the Roberta model demonstrated high accuracy and effectiveness in understanding language and detecting patterns in mental health data, outperforming traditional machine learning models.
 
